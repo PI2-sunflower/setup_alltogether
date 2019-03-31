@@ -1,0 +1,12 @@
+[submodule "sunflower_broker_and_control"]
+	path = sunflower_broker_and_control
+	url = https://github.com/PI2-sunflower/sunflower_broker_and_control.git
+
+[submodule "sunflower_client"]
+	path = sunflower_client
+	url = https://github.com/PI2-sunflower/sunflower_client.git
+
+[submodule "sunflower_server"]
+	path = sunflower_server
+  url = https://github.com/PI2-sunflower/sunflower_server.git
+
