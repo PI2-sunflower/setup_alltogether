@@ -21,4 +21,4 @@ WORKDIR /
 COPY --from=sunflower_client /sunflower_client/dist /usr/share/nginx/html/dist
 
 # Copy configuration files to the container
-COPY ./nginx/conf.d/local.conf /etc/nginx/conf.d/default.conf
+COPY ./sunflower_nginx/conf.d/local.conf /etc/nginx/conf.d/default.conf
