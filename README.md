@@ -57,7 +57,7 @@ git clone --recurse-submodules https://github.com/PI2-sunflower/sunflower_alltog
 
 ## Build process
 
-The build process is the slowest part, but it only need to be done once.
+The build process is the slowest part, but it **only need to be done once**.
 
 First access the directory:
 ```bash
@@ -69,6 +69,8 @@ Then call docker-compose to do the build. The first build is the slowest of all 
 ```bash
 sudo docker-compose build
 ```
+
+Remembering, you don't need to run the build every time you are going to use the system. The build is done **only one time** and then you kept just running it.
 
 ## Running
 
