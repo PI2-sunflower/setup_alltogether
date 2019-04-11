@@ -28,6 +28,7 @@ services:
       - sunflower_broker
     environment:
       MQTT_HOST: sunflower_broker
+      N2YO_API_KEY: 2JW65W-X9V88R-EV94JQ-3VMJ
     command: python3 manage.py runserver 0.0.0.0:8000
     #command: gunicorn sunflower_server.wsgi -b 0.0.0.0:8000
 
